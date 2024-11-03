@@ -21,9 +21,9 @@ const redesSociales = [
     id: 3,
     name: "github",
     src: "/src/assets/github_icon.svg",
-    url: "https://www.github.com/",
+    url: "https://github.com/miquigz",
   },
-  { id: 4, name: "curriculum", src: "/src/assets/cv_resume_icon.svg", url: "" },
+  { id: 4, name: "curriculum", src: "/src/assets/cv_resume_icon.svg", url: "https://miquigz.github.io/assets/CV.pdf" },
 ];
 const telefono = "+54 11 2851-9604";
 </script>
