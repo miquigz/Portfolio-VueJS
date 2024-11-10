@@ -2,10 +2,12 @@
 import { ref } from 'vue';
 const titulo = 'Desarrollador Full Stack';
 const fecha = 'Desde Abril 2022 / Presente';
+const imgAngular = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Angular_full_color_logo.svg/2048px-Angular_full_color_logo.svg.png";
+const finnegans = "https://fisterrasrl.com.ar/wp-content/uploads/2020/10/Finnegans-logo-nuevo1.png";
 const experiencias = ref([
-    { id: 1, src: '/src/assets/ventas.svg', parrafo: 'freelance con Angular y firebase, creacion de MVP, gestion de URLs de YT diarias' },
-    { id: 2, src: '/src/assets/ecomerce.svg', parrafo: 'Ingreso como becario en finnegans para Desarrollador fullstack con Java y Angular' },
-    { id: 3, src: '/src/assets/ecomerce.svg', parrafo: 'Desarrollador fullstack con Angular y Go en finnegans' },
+    { id: 1, src: imgAngular, parrafo: 'freelance con Angular y firebase, creacion de MVP, gestion de URLs de YT diarias' },
+    { id: 2, src: finnegans, parrafo: 'Ingreso como becario en finnegans para Desarrollador fullstack con Java y Angular' },
+    { id: 3, src: finnegans, parrafo: 'Desarrollador fullstack con Angular y Go en finnegans' },
 ]);
 </script>
 

@@ -8,7 +8,7 @@ misProyectos.value = ([
     //esto es un array de objetos que contiene información sobre los proyectos
     {
         id: 1,
-        src: "/src/assets/restaurant.png",
+        src: "https://camo.githubusercontent.com/ba24006e3bb050bced60441c3d8ab656e867a4004bbebb62e79e4a29b800e562/68747470733a2f2f692e706f7374696d672e63632f4c7338674a3272432f77652e77656270",
         titulo: "Inventory Managment (2022)",
         descripcion: "Es una aplicación web para la gestión de inventarios, realizada con angular, ng2-charts, material, tailwindcss, y en el backend nodeJS con expressJS.",
         projectoLink: "https://github.com/miquigz/front-management_Inventory",
@@ -16,15 +16,15 @@ misProyectos.value = ([
     },
     {
         id: 2,
-        src: "/src/assets/e-learning.png",
+        src: "https://luminous-maamoul-9564a5.netlify.app/images/inicio-1.jpg",
         titulo: "Alice Project (2020-2022)",
         descripcion: "Es una Aventura Gráfica, primeramente diseñada en processing (entorno de desarrollo de código abierto basado en Java), que posteriormente, convertida a lenguaje javascript. La historia es 100% ficticia, no debe tomarse en serio.",
-        projectoLink: "https://bit.ly/3E0eCKt",
+        projectoLink: "https://luminous-maamoul-9564a5.netlify.app/index.html",
         githubLink: "https://github.com/miquigz/AliceProject"
     },
     {
         id: 3,
-        src: "/src/assets/blog.png",
+        src: "https://camo.githubusercontent.com/7afbea0c4bd8e152896aae187ea6c36a3502cc51aa04e519d7646ce1eb40d4ab/68747470733a2f2f692e706f7374696d672e63632f51744250524c62322f70726576696577342e706e67",
         titulo: "Postcards Project (2022)",
         descripcion: "El proyecto consiste en la publicación de posts, cuenta con sistema de registro y autenticación de usuarios, la capacidad de editar posts, filtrar posts, filtrar usuarios, sistema de likes, y entre otras funcionalidades como pueden ser cambiar temas, editar perfil, etc.",
         projectoLink: "https://github.com/miquigz/final-project",

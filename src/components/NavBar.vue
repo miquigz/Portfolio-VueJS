@@ -3,7 +3,7 @@
             <div class="navbar-menu">
                 <ul>
 <!--Se coloco el operador v-bind al atributo href utilizando su minima expreción el operador : / y se soluciono el enlace a las distintas secciones-->
-                    <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="nav-item" >{{nav.nombre}}</a>  
+                    <a v-for="nav in navegacion" :key="nav.nombre" :href="nav.enlace" class="navbar-item" >{{nav.nombre}}</a>  
                 </ul>
             </div>
         </nav>
@@ -24,14 +24,16 @@ const navegacion= ref([
 .navbar {
     background-color: var(--vt-c-indigo); /* Establece el color de fondo usando una variable CSS */
     color: #fff; /* Establece el color del texto en blanco */
-    padding: 0.5rem 1rem; /* Añade un padding de 0.5rem arriba y abajo, y 1rem a los lados */
+    padding: 1.5rem 1rem; /* Añade un padding de 0.5rem arriba y abajo, y 1rem a los lados */
     align-items: center; /* Centra verticalmente los elementos dentro de la navbar */
+    scroll-behavior: smooth;
 }
 
 .navbar-item {
     color: #fff; /* Establece el color del texto en blanco */
     text-decoration: none; /* Elimina el subrayado de los enlaces */
     margin-right: 1rem; /* Añade un margen derecho de 1rem entre los elementos */
+    background-color: black;
 }
 
 .navbar-menu {

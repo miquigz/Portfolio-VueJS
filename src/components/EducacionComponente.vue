@@ -4,14 +4,13 @@ const fechaColor = ref([]);
 /*Esta es otra forma de utilizar el arreglo, con el metodo value*/
 fechaColor.value = [
   {color: '#41516c'},
-  {color: '#FBCA3E'},
   {color: '#E24A68'},
   {color: '#1B5F8C'},
   {color: '#4CADAD'}
 ];
 /*Esta es la forma de utilizar el arreglo, sin el metodo value*/
 const educacion = ref([
-  {fecha: '2024', title: 'Técnicatura Universitaria en Programacion', descripcion: '', enlace:'https://www.youtube.com/'},
+  {fecha: '2024', title: 'Técnicatura Universitaria en Programacion', descripcion: '', enlace:'https://www.frsr.utn.edu.ar/'},
   {fecha: '2019', title: 'Itinerario Formativo Diseño Gráfico Multimedial EESN2', descripcion: 'Marzo 2017 - Noviembre 2019 Itinerario formativo adicional a la cursada normal, realizado en EESN2 Veronica(Punta Indio), Buenos Aires.', enlace:''},
   {fecha: '2019', title: 'Bachiller en Artes Visuales, EESN2', descripcion: 'Marzo 2014 - Noviembre 2019', enlace:''}
 ]);
@@ -24,7 +23,8 @@ const educacion = ref([
         <h3 class="title">{{ item.title }}</h3>
         <div class="descripcion">{{ item.descripcion }}</div>
         <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
-        <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+        <!-- Preguntamos si el item.enlace es diferente de vacio, si es asi mostramos el enlace -->
+        <a v-if="item.enlace" :href="item.enlace" target="_blank">Saber más</a>
     </li>
     </ul>
 </template>
