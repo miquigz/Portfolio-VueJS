@@ -8,6 +8,7 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base:"https://miquigz.github.io/portfolio-vuejs-2024/",
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
