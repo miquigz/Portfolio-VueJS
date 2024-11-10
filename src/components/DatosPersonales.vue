@@ -1,4 +1,9 @@
 <script setup>
+import cv from "/src/assets/cv_resume_icon.svg";
+import github from "/src/assets/github_icon.svg";
+import instagram from "/src/assets/instagram_icon.svg";
+import linkedin from "/src/assets/linkedin_icon.svg"; 
+
 const title = "Miqueas Gimenez";
 const descripcion =
   "Estudiante de Tecnicatura Universitaria en Programación - UTN";
@@ -9,25 +14,25 @@ const redesSociales = [
   {
     id: 1,
     name: "linkedin",
-    src: "/src/assets/linkedin_icon.svg",
+    src: linkedin,
     url: "https://www.linkedin.com/in/miqueas-gimenez/",
   },
   {
     id: 2,
     name: "Instagram",
-    src: "/src/assets/instagram_icon.svg",
+    src: instagram,
     url: "https://www.instagram.com/miquigz/",
   },
   {
     id: 3,
     name: "github",
-    src: "/src/assets/github_icon.svg",
+    src: github,
     url: "https://github.com/miquigz",
   },
   {
     id: 4,
     name: "curriculum",
-    src: "/src/assets/cv_resume_icon.svg",
+    src: cv,
     url: "https://miquigz.github.io/assets/CV.pdf",
   },
 ];
