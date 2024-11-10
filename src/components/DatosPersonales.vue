@@ -1,9 +1,10 @@
 <script setup>
 const title = "Miqueas Gimenez";
-const descripcion = "Estudiante de Tecnicatura Universitaria en Programación - UTN";
+const descripcion =
+  "Estudiante de Tecnicatura Universitaria en Programación - UTN";
 const residencia = "La Plata, Buenos Aires, Argentina";
 const presentacion =
-  "Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador web con experiencia en el desarrollo de aplicaciones web y móviles.";
+  "Hola, Bienvenido a mi portafolio de proyectos. Soy un desarrollador fullstack";
 const redesSociales = [
   {
     id: 1,
@@ -21,9 +22,14 @@ const redesSociales = [
     id: 3,
     name: "github",
     src: "/src/assets/github_icon.svg",
-    url: "https://www.github.com/",
+    url: "https://github.com/miquigz",
   },
-  { id: 4, name: "curriculum", src: "/src/assets/cv_resume_icon.svg", url: "" },
+  {
+    id: 4,
+    name: "curriculum",
+    src: "/src/assets/cv_resume_icon.svg",
+    url: "https://miquigz.github.io/assets/CV.pdf",
+  },
 ];
 const telefono = "+54 11 2851-9604";
 </script>
@@ -36,7 +42,7 @@ const telefono = "+54 11 2851-9604";
       <p>{{ presentacion }}</p>
       <ul class="container-lista">
         <li v-for="red in redesSociales" :key="red.id">
-          <a :href="red.url"
+          <a :href="red.url" target="_blank"
             ><img
               class="icon-redsocial"
               :src="red.src"
@@ -54,6 +60,7 @@ const telefono = "+54 11 2851-9604";
 <style scoped>
 h1 {
   font-size: 2.5rem;
+  font-weight: 600;
 }
 
 p {
